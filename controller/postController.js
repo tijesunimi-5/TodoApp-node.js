@@ -1,6 +1,6 @@
 export const createPost = (req, res) => {
   console.log(req.body);
-  res.json({ data: req.body, message: "This is the route to create post" });
+  res.json({ data: req.body, message: "This is the edited route to create post" });
 };
 
 export const getPost = (req, res) => {
